@@ -5,10 +5,6 @@
         <article class="gh-article {{post_class}}">
 
             <header class="gh-article-header gh-canvas">
-                {{#if primary_tag}}
-                    <a class="gh-article-tag" href="{{primary_tag.url}}">{{primary_tag.name}}</a>
-                {{/if}}
-
                 <h1 class="gh-article-title">{{title}}</h1>
 
                 {{> "post-meta"}}
@@ -23,6 +19,12 @@
             <section class="gh-content gh-canvas">
                 {{content}}
             </section>
+
+            <footer>
+                {{#each tags}}
+                    <a class="gh-article-tag" href="{{tag.url}}">{{tag.name}}</a>
+                {{/each}}
+            </footer>
 
         </article>
     {{/post}}
