@@ -342,7 +342,7 @@ body:not(.home-template) .gh-topic-grid .gh-card {
 }
 
 .gh-article-tag + .gh-article-tag {
-    margin-inline-start: 0.5em;
+    margin-left: 0.5em;
 }
 
 .gh-article-excerpt {
