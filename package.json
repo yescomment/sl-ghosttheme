@@ -1,6 +1,6 @@
 {
-    "name": "headline",
-    "description": "A Ghost theme",
+    "name": "sludgeline",
+    "description": "A Ghost theme for Sludge",
     "version": "1.0.0",
     "private": true,
     "engines": {
@@ -17,7 +17,7 @@
         "theme",
         "ghost-theme"
     ],
-    "docs": "https://headline.ghost.io/about/",
+    "docs": "https://github.com/yescomment/sl-sludgeline",
     "config": {
         "posts_per_page": 7,
         "image_sizes": {
