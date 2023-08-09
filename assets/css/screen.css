@@ -333,12 +333,16 @@ body:not(.home-template) .gh-topic-grid .gh-card {
     justify-items: start;
 }
 
-.gh-article-tag {
+.gh-article-tags {
     margin-bottom: 12px;
     font-size: 1.2rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.01em;
+}
+
+.gh-article-tag + .gh-article-tag {
+    margin-inline-start: 0.5em;
 }
 
 .gh-article-excerpt {

@@ -20,10 +20,15 @@
                 {{content}}
             </section>
 
-            <footer>
-                {{#foreach tags}}
-                    <a class="gh-article-tag" href="{{url}}">{{name}}</a>
-                {{/foreach}}
+            <footer class="gh-read-next gh-canvas">
+                <section class="gh-pagehead">
+                    <h4 class="gh-pagehead-title">Filed under</h4>
+                </section>
+                <nav class="gh-article-tags">
+                    {{#foreach tags}}
+                        <a class="gh-article-tag" href="{{url}}">{{name}}</a>
+                    {{/foreach}}
+                </nav>
             </footer>
 
         </article>
