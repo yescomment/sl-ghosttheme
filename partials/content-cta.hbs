@@ -5,7 +5,7 @@
             <h2>This {{#is "page"}}page{{else}}post{{/is}} is for paying subscribers only</h2>
         {{/has}}
         {{#has visibility="members"}}
-            <h2>Unlock this story by signing up as a Sludge subscriber</h2>
+            <h2>Unlock the full story for free</h2>
         {{/has}}
         {{#has visibility="tiers"}}
             <h2>This {{#is "page"}}page{{else}}post{{/is}} is for subscribers on the {{tiers}} only </h2>
@@ -13,7 +13,7 @@
         {{#if @member}}
             <a class="gh-btn" data-portal="account/plans" style="color:{{@site.accent_color}}">Upgrade your account</a>
         {{else}}
-            <p>It’s free and gives you access to our full website.</p>
+            <p>Sign up as a Sludge subscriber. It’s free and gives you access to our full website.</p>
             <a class="gh-btn" data-portal="signup" style="color:{{@site.accent_color}}">Subscribe now</a>
             <p><small>Already have an account? <a data-portal="signin">Sign in</a></small></p>
         {{/if}}
