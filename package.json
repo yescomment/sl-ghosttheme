@@ -69,6 +69,21 @@
                 "type": "text",
                 "default": "Don't miss out on the latest news. Sign up now to get access to the library of members-only articles."
             },
+            "cta_paid_title": {
+                "type": "text",
+                "default": "Read this full post with a subscription to Sludge",
+                "description": "Shown below free preview of paid-only posts & pages"
+            },
+            "cta_free_title": {
+                "type": "text",
+                "default": "Get this full story for free",
+                "description": "Shown below free preview of free but members-only posts & pages"
+            },
+            "cta_lede": {
+                "type": "text",
+                "default": "Subscribers get our new stories over email the moment they’re published.",
+                "description": "Body of paywall, above signup/login buttons"
+            },
             "footer_text": {
                 "type": "text"
             },
