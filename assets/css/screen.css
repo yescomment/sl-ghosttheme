@@ -896,3 +896,18 @@ body:not(.home-template) .gh-topic-grid .gh-card {
         line-height: 1;
     }
 }
+
+.gh-post-upgrade-cta {
+    position: relative;
+}
+
+.gh-post-upgrade-cta::before {
+    content: "";
+    color: blue;
+    position: absolute;
+    left:0;
+    top:-15em;
+    height: 15em;
+    width: 100%;
+    background: linear-gradient(transparent,var(--color-white) 85%);
+}
