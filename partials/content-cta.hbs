@@ -3,9 +3,11 @@
     <div class="gh-post-upgrade-cta-content" style="background-color: {{@site.accent_color}}">
         {{#has visibility="paid"}}
             <h2>{{@custom.cta_paid_title}}</h2>
+            <p>{{@custom.cta_paid_lede}}</p>
         {{/has}}
         {{#has visibility="members"}}
             <h2>{{@custom.cta_free_title}}</h2>
+            <p>{{@custom.cta_free_lede}}</p>
         {{/has}}
         {{#has visibility="tiers"}}
             <h2>This {{#is "page"}}page{{else}}post{{/is}} is for subscribers on the {{tiers}} only </h2>
@@ -13,7 +15,6 @@
         {{#if @member}}
             <a class="gh-btn" data-portal="account/plans" style="color:{{@site.accent_color}}">Upgrade your subscription</a>
         {{else}}
-            <p>{{@custom.cta_lede}}</p>
             <a class="gh-btn" data-portal="signup" style="color:{{@site.accent_color}}">Subscribe now</a>
             <p><small>Already a member? <a data-portal="signin">Sign in</a></small></p>
         {{/if}}
