@@ -1,0 +1,26 @@
+<script>
+  const OutpostPub = {
+    apiDomain: "{{> integrations/outpost-domain-name}}",
+    apiKey: "{{> integrations/outpost-api-key}}",
+    siteName: "{{@site.title}}",
+    memberId: "{{@member.uuid}}",
+    memberEmail: "{{@member.email}}",
+    {{#if @member.paid}}
+      memberPaid: "{{@member.paid}}",
+      memberPlans: [
+        {{#foreach @member.subscriptions}}
+          "{{status}}:{{plan.interval}}",
+        {{/foreach}}
+      ],
+    {{/if}}
+    {{#is "post"}}
+      {{#post}}
+        post: {
+          id: "{{id}}",
+          tags: ["{{tags visibility="all" separator="\", \"" autolink="false"}}"],
+        }
+      {{/post}}
+    {{/is}}
+  }
+</script>
+<script defer src="https://assets.outpostpublishingcoop.com/assets/v2/js/outpost-pub.js"></script>
