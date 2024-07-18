@@ -23,6 +23,8 @@
           <news:keywords>{{tags limit="5" autolink="false"}}</news:keywords>
         </news:news>
       </url>
+    {{else}}
+      <url></url>
     {{/foreach}}
   {{/get}}
 </urlset>
