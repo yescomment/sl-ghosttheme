@@ -913,7 +913,8 @@ body:not(.home-template) .gh-topic-grid .gh-card {
 }
 
 .gh-content a,
-.gh-article-tag {
+.gh-article-tag,
+.gh-portal-product-name {
     color: #70889e; /* override --ghost-accent-color, which we set to orange for buttons */
 }
 
