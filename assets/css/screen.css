@@ -912,6 +912,7 @@ body:not(.home-template) .gh-topic-grid .gh-card {
     background: linear-gradient(transparent,var(--color-white) 85%);
 }
 
-.gh-content a {
+.gh-content a,
+.gh-article-tag {
     color: #70889e; /* override --ghost-accent-color, which we set to orange for buttons */
 }
