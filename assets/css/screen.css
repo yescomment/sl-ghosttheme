@@ -921,3 +921,7 @@ body:not(.home-template) .gh-topic-grid .gh-card {
 .home-template .gh-post-upgrade-cta::before {
     content: none !important;
 }
+
+.home-template .gh-post-upgrade-cta {
+    margin-block: 2rem;
+}
