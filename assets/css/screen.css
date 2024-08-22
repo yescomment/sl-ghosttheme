@@ -911,3 +911,10 @@ body:not(.home-template) .gh-topic-grid .gh-card {
     width: 100%;
     background: linear-gradient(transparent,var(--color-white) 85%);
 }
+
+/* Custom subscribe button color */
+
+.gh-portal-triggerbtn-container,
+[class^="gh-portal"][href^="#/portal/signup"] {
+    background-color: #ffb510 !important;
+}
