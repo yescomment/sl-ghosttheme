@@ -915,6 +915,6 @@ body:not(.home-template) .gh-topic-grid .gh-card {
 /* Custom subscribe button color */
 
 .gh-portal-triggerbtn-container,
-[class^="gh-portal"][href^="#/portal/signup"] {
+.gh-primary-btn[href^="#/portal/signup"] {
     background-color: #ffb510 !important;
 }
