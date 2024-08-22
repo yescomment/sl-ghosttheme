@@ -912,9 +912,6 @@ body:not(.home-template) .gh-topic-grid .gh-card {
     background: linear-gradient(transparent,var(--color-white) 85%);
 }
 
-/* Custom subscribe button color */
-
-.gh-portal-triggerbtn-container,
-.gh-primary-btn[href^="#/portal/signup"] {
-    background-color: #ffb510 !important;
+.gh-content a {
+    color: #70889e; /* override --ghost-accent-color, which we set to orange for buttons */
 }
