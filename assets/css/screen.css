@@ -28,6 +28,12 @@ figcaption {
     font-weight: 500;
 }
 
+header#gh-head {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
 body:not(.is-head-stacked) .gh-head {
     height: 88px;
 }
