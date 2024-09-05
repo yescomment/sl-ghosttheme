@@ -917,9 +917,18 @@ body:not(.home-template) .gh-topic-grid .gh-card {
     background: linear-gradient(transparent,var(--color-white) 85%);
 }
 
-.gh-content a,
-.gh-article-tag {
-    color: #70889e; /* override --ghost-accent-color, which we set to orange for buttons */
+/* Sludge Orange for Subscribe buttons */
+/* I believe buttom two won't work as they are in iframes */
+/* But posting here to show I tried */
+.gh-head .gh-btn[class^=gh-portal-],
+.gh-foot .gh-btn[class^=gh-portal-],
+.gh-subscribe-btn,
+.kg-button-card .kg-btn-accent,
+.gh-post-upgrade-cta-content,
+.gh-portal-triggerbtn-container,
+.gh-portal-btn-product .gh-portal-btn {
+    --brandcolor: #f9812a;
+    background-color: var(--brandcolor) !important;
 }
 
 /* Hide text fadeout gradient on homepage CTA */
