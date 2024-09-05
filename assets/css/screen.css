@@ -920,8 +920,7 @@ body:not(.home-template) .gh-topic-grid .gh-card {
 /* Sludge Orange for Subscribe buttons */
 /* I believe buttom two won't work as they are in iframes */
 /* But posting here to show I tried */
-.gh-subscribe-btn,
-.gh-account-btn,
+.sl-money-btn,
 .kg-button-card .kg-btn-accent,
 .gh-post-upgrade-cta-content,
 .gh-portal-triggerbtn-container,
