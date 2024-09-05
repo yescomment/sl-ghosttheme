@@ -909,7 +909,6 @@ body:not(.home-template) .gh-topic-grid .gh-card {
 
 .gh-post-upgrade-cta::before {
     content: "";
-    color: blue;
     position: absolute;
     left:0;
     top:-15em;
